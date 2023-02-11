@@ -1,0 +1,122 @@
+body {
+	background-position: center 0px;
+	background-image: url("waveBG.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+	/*background-attachment: fixed;*/
+	color: white;
+}
+.gridContainer {
+	display: grid;
+}
+#headerGrid {
+	grid-template-columns: auto auto auto auto;
+	background-color: black;
+	border: 5px outset #00ffff;
+	width: 560px;
+	position: fixed;
+	right: 0;
+	margin-right: 10px;
+}
+#headerGrid > div {
+	background-color: black;
+}
+#quote {
+	float: right;
+	clear: both;
+	padding-top: 150px;
+	padding-right: 30px;
+	font-family: 'Courgette', cursive;
+	font-size: 30px;
+}
+#quoter {
+	float: right;
+	clear: both;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-right: 30px;
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+}
+#about {
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Signika Negative', sans-serif;
+	width: 70%;
+	color: black;
+	background-color: #00ffff;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 80px;
+}
+#aboutBox {
+	background-image: url("divback.png");
+	width: 100%;
+	height: 300px;
+	clear: both;
+	padding-top: 100px;
+}
+a:link, a:visited {
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 33%;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+a:hover, a:active {
+    color: #0892d0;
+}
+#donateText {
+	font-size: 20px;
+	font-family: 'Signika Negative', sans-serif;
+	text-align: center;
+	margin: auto;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#donate {
+	margin: 50px;
+}
+#donateButton {
+	display: block;
+	margin: auto;
+}
+#footerHeader {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+#footerGrid {
+	grid-template-columns: auto auto auto;
+	font-size: 15px;
+}
+#footerGrid > div {
+	text-align: center;
+}
+.footerButton {
+	font-size: 15px;
+}
+.ig {
+	width: 50px;
+	height: 50px;
+}
+h4 {
+	font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#OClogoDiv {
+	float: right;
+	clear: both;
+	margin-bottom: 60px;
+	margin-right: 50px;
+}
+#OClogo {
+	width: 300px;
+	height: 300px;
+}
